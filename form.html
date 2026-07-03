@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        div{
+            background-color: rgb(244, 215, 250);
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <form action="#" method="post">
+    <table cellpadding="3">
+    <tr>
+    <td><label for="name"> Student Name:</label></td>
+    <td><input type="text" id="name" required></td></tr>
+    
+
+    <tr><td><label for="Fname">Father Name:</label></td>
+    <td><input type="text" id="Fname" required></td></tr>
+    
+
+    <tr><td><label for="Gender">Gender:</label></td>
+    <td><label for="MALE">Male</label>
+    <input type="radio" id="MALE" name="Gender">
+    <label for="Female">Female</label>
+    <input type="radio" id="Female" name="Gender"></td></tr>
+    
+    
+    <tr>
+    <td><label for="Birth">Date Of Birth:</label></td>
+    <td><input type="date" id="Birth" required min="2004-01-01" max="2006-01-01"></td></tr>
+    
+
+    <tr><td><label for="Sname">School Name:</label></td>
+    <td><input type="text" id="Sname" required></td></tr>
+    
+
+    <tr><td><label for="email">Email:</label></td>
+    <td><input type="email" id="email" required></td></tr>
+    
+
+    <tr><td><label for="phno">Phone no:</label></td>
+    <td><input type="tel" id="phno" required></td></tr>
+    
+    <tr><td><label for="Board">Board:</label></td>
+    <td><label for="ICSE">ICSE</label>
+    <input type="radio" id="ICSE" name="Board">
+    <label for="State"> STATE</label>
+    <input type="radio" id="State" name="Board">
+    <label for="CBSE"> CBSE</label>
+    <input type="radio" id="CBSE" name="Board"></td></tr>
+    
+
+    <tr><td><label for="Address">Address:</label></td>
+    <td><textarea id="Address" id="Address" cols="10" rows="4" required></textarea></td></tr>
+    </div>
+   </table>
+   
+<button>SUBMIT</button>
+<button>LOGIN</button>
+</form>
+</center>
+</body>
+</html>
